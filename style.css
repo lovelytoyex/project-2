@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.Welcome{
+    float: left;
+    width: 40%;
+    background-image:linear-gradient(rgba(192, 128, 128, 0.7),rgba(0,0,0,0.7)), url(IMG_0707.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: absolute;
+    
+    
+
+}
+.Form{
+    float: right;
+    width: 60%;
+}
+h1{ 
+    color: white;
+    top: 35%;
+    font-size: 50px;
+    font-weight: 600;
+    word-spacing: 4px;
+    text-align: center;
+    position: relative;
+}
+p{
+    top: 37%;
+    position: relative;
+    width: 50%;
+    line-height: 150%;
+    text-align: center;
+    color:#ffff;
+    font-weight: 200;
+    margin-left: 140px;
+}
+.alt{
+    top: 37%;
+    left: 40%;
+    position: relative;
+}
+.alt a{
+    padding: 8px 40px;
+    border: 2px solid#ffff;
+    color: #ffff;
+    text-decoration: none;
+    border-radius: 40px;
+    font-size: 10px;
+    font-weight: 500;
+
+}
+.header{
+    margin-right: 290px;
+    margin-top: 60px;
+
+}
+.head{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #5e0a2d;
+    font-weight: 700;
+    font-size: 35px;
+    margin-left: 250px;
+    margin-top: 50px;
+    
+}
+.icon-text{
+    font-size: 15px;
+    color: #555;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.form-container{
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.icon{
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    font-size: 20px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 10px;
+
+}
+.icon:first-of-type{
+    margin-left: 300px;
+}
+.control{
+    background:transparent;
+    border: 0px transparent;
+    width: 350px;
+    border-radius: 0px;
+    font-size: 15px;
+    padding: 20px;
+    border-bottom: 1px solid#5555;
+}
+.control:before{
+    content: ();
+    display: hidden;
+}
+.control:focus{
+    outline: none;
+}
+.btn-warning{
+    margin-top: 30px;
+    width: 130px;
+    font-size: 15px;
+    border-radius: 40px;
+    transition: color 0.5s, bacckground-color 0.5;
+    margin-left: 90px;
+}
+.btn-warning:hover{
+    border: 3px solid #e77913;
+    color: #e77913;
+    background-color: #ffff;
+}
+.fa-facebook{
+    background: #55acee;
+    color: #ffff;
+    transform: scale(1.2);
+    transition: background-color 0.5s,color 0.5s;
+}
+.fa-facebook:hover{
+    background-color: #ffff;
+    color:#55acee;
+    transform:scale(0.9);
+}
+
+
+
+.fa-google{
+    background: #db3236;
+    color: #ffff;
+    transform: scale(1.2);
+    transition: background-color 0.5s,color 0.5s;
+}
+.fa-google:hover{
+    background-color: #ffff;
+    color:#db3236;
+    transform:scale(0.9);
+}
+
+
+
+.fa-apple{
+    background: #000000;
+    color: #ffff;
+    transform: scale(1.2);
+    transition: background-color 0.5s,color 0.5s;
+}
+.fa-apple:hover{
+    background-color: #ffff;
+    color: #000000;;
+    transform:scale(0.9);
+}
+
